@@ -1,0 +1,15 @@
+<ion-header-bar class="bar-dark">
+	<h1 class="title">Star Wars | Characters</h1>
+</ion-header-bar>
+
+<ion-view title="SWAPI | Characters">
+	<ion-content class="row responsive-sm responsive-md responsive-lg padding bg">
+		<div class="col-90">
+			<ion-list ng-repeat ="people in peoples" class="has-subheader">
+				<ion-item>
+					<a href="#/details/{{$index}}">{{people.name}}</a>
+				</ion-item>
+			</ion-list>
+		</div>
+	</ion-content>
+</ion-view>

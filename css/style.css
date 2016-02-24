@@ -1,0 +1,75 @@
+/* Empty. Add your own CSS if you like */
+.bg
+{
+	background-color: #242424;
+}
+
+body 
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	letter-spacing: .5px;
+}
+
+
+h1
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+	color: #242424;
+}
+
+
+a:hover
+{
+	color: white;
+}
+
+.logo
+{
+	padding-top: 50px;	
+}
+.intro 
+{
+	padding-top: 30px;
+}
+
+.intro h1, p
+{	
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.item
+{
+	background-color: #F5E8D9;
+}
+
+.item:hover
+{
+	background-color: #F6D78F;
+}
+
+.item-diviver
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: white;
+	background-color: #242424;
+}
+
+.bb8 img
+{
+	padding-top: 30px;
+	width: 70%;
+}

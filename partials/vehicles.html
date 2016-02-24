@@ -1,0 +1,13 @@
+<ion-header-bar class="bar-dark">
+	<h1 class="title">Star Wars | Vehicles</h1>
+</ion-header-bar>
+
+<ion-view title="SWAPI | Vechicles">
+<ion-content class="row responsive-sm responsive-md responsive-lg padding bg">
+	<ion-list ng-repeat ="vehicle in vehicles" class="has-subheader">
+		<ion-item>
+			<a href="#/vehicle/{{$index}}">{{vehicle.name}}</a>
+		</ion-item>
+	</ion-list>
+</ion-content>
+</ion-view>
