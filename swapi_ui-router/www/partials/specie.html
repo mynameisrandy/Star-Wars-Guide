@@ -1,0 +1,22 @@
+<ion-header-bar class="bar-dark">
+	<button class="button icon ion-arrow-left-c" ui-sref="/species"></button>
+	<h1 class="title" data-ng-bind-html="name"></h1>
+</ion-header-bar>
+
+<ion-view title="SWAPI | Specie">
+<ion-content class="row responsive-sm responsive-md responsive-lg padding bg">
+	<ul class="list">
+		<li class="item item-diviver">Species Information</li>
+		<li class="item">Name: {{name}}</li>
+		<li class="item">Classification: {{classification}}</li>
+		<li class="item">Designation: {{designation}}</li>
+		<li class="item">Average Height: {{average_height}}</li>
+		<li class="item">Average Lifespan: {{average_lifespan}}</li>
+		<li class="item">Eye Colors: {{eye_colors}}</li>
+		<li class="item">Hair Colors: {{hair_colors}}</li>
+		<li class="item">Skin Colors: {{skin_colors}}</li>
+		<li class="item">Language: {{Language}}</li>
+		<li class="item">Homeworld: {{homeworld}}</li>
+	</ul>
+</ion-content>
+</ion-view>

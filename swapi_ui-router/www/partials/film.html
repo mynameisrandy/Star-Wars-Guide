@@ -1,0 +1,19 @@
+<ion-header-bar class="bar-dark">
+	<button class="button icon ion-arrow-left-c" ui-sref="/films"></button>
+	<h1 class="title" data-ng-bind-html="title"></h1>
+</ion-header-bar>
+
+<ion-view title="SWAPI | Film">
+	<ion-content class="row responsive-sm responsive-md responsive-lg padding bg">
+		<div class="col-90">
+			<ul class="list">
+				<li class="item item-diviver">Film Information</li>
+				<li class="item">Title: {{title}}</li>
+				<li class="item item-body">Opening Crawl: {{opening_crawl}}</li>
+				<li class="item">Director: {{director}}</li>
+				<li class="item">Producer: {{producer}}</li>
+				<li class="item">Release Date: {{release_date}}</li>
+			</ul>
+		</div>
+	</ion-content>
+</ion-view>

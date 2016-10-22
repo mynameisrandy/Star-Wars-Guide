@@ -1,0 +1,21 @@
+<ion-header-bar class="bar-dark">
+	<button class="button icon ion-arrow-left-c" ui-sref="/planets"></button>
+	<h1 class="title" data-ng-bind-html="name"></h1>
+</ion-header-bar>
+
+<ion-view title="SWAPI | Planet">
+<ion-content class="row responsive-sm responsive-md responsive-lg padding bg">
+	<ul class="list">
+		<li class="item item-diviver">Planet Information</li>
+		<li class="item">Name: {{name}}</li>
+		<li class="item">Diameter: {{diameter}}</li>
+		<li class="item">Rotation Period: {{rotation_period}}</li>
+		<li class="item">Orbital Period: {{orbital_period}}</li>
+		<li class="item">Gravity: {{gravity}}</li>
+		<li class="item">Population: {{population}}</li>
+		<li class="item">ClimatC: {{climate}}</li>
+		<li class="item">Terrain: {{terrain}}</li>
+		<li class="item">Surface Water: {{surface_water}}</li>
+	</ul>
+</ion-content>
+</ion-view>

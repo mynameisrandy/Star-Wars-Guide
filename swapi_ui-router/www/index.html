@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="swapi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>SWAPI</title>
+    <link rel="icon" href="img/swapi.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato%3A400%2C100%2C300%2C700" rel="stylesheet" type="text/css">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <ion-nav-view>
+    <!-- Paritals View Here -->
+    </ion-nav-view>
+    
+    <!-- TABS -->
+    <ion-tabs class="tabs-striped tabs-color-dark">
+        <!-- List Tab -->
+        <ion-tab icon="ion-ios-home" ui-sref="/home">
+            <ion-nav-view name="home"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab icon="ion-ios-people" ui-sref="/list">
+            <ion-nav-view name="list"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab icon="ion-ios-film" ui-sref="/films">
+            <ion-nav-view name="films"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab icon="ion-plane" ui-sref="/starships">
+            <ion-nav-view name="starships"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab icon="ion-model-s" ui-sref="/vehicles">
+            <ion-nav-view name="vehicles"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab icon="ion-ios-paw" ui-sref="/species">
+            <ion-nav-view name="species"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab icon="ion-earth" ui-sref="/planets">
+            <ion-nav-view name="planets"></ion-nav-view>
+        </ion-tab>
+
+    </ion-tabs>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+/* Empty. Add your own CSS if you like */
+.bg
+{
+	background-color: #242424;
+}
+
+
+a
+{
+	text-decoration: none;
+	color: #242424;
+}
+
+a:hover
+{
+	color: red;
+	text-decoration: underline;
+}

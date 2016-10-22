@@ -1,0 +1,23 @@
+<ion-header-bar class="bar-dark">
+	<button class="button icon ion-arrow-left-c" ui-sref="/vehicles"></button>
+	<h1 class="title" data-ng-bind-html="name"></h1>
+</ion-header-bar>
+
+<ion-view title="SWAPI | Vehicle">
+<ion-content class="row responsive-sm responsive-md responsive-lg padding bg">
+	<ul class="list">
+		<li class="item item-diviver">Vehicle Information</li>
+		<li class="item">Name: {{name}}</li>
+		<li class="item">Model: {{model}}</li>
+		<li class="item">Vehicle Class: {{vehicle_class}}</li>
+		<li class="item">Manufacturer: {{manufacturer}}</li>
+		<li class="item">Cost in Credits: {{cost_in_credits}}</li>
+		<li class="item">Length: {{length}}</li>
+		<li class="item">Crew: {{crew}}</li>
+		<li class="item item-body">Passengers: {{passengers}}</li>
+		<li class="item">Max Atmosphering Speed: {{max_atmosphering_speed}}</li>
+		<li class="item">Cargo Capacity: {{cargo_capacity}}</li>
+		<li class="item">Consumables: {{consumables}}</li>
+	</ul>
+</ion-content>
+</ion-view>
